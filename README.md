@@ -19,7 +19,7 @@ Se busca aprovechar la capacidad generativa del modelo para:
 ## 👥 Equipo 11
 * Edgar Iván Ramírez (A01797108)
 * Jorge Muñoz Estrada (A01213938)
-* Juan Pablo Carvajal (A01296843)
+* Juan Pablo Carvajal (A01796843)
 
 ## 📅 Plan de Entregables
 
