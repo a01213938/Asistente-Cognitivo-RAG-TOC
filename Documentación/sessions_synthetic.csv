@@ -1,0 +1,7 @@
+session_id,project_phase,duration_min,num_speakers,video_format,has_audio,has_transcript,dataset_split
+S01_DISCOVERY,Discovery,35,4,MP4,True,True,development
+S02_ARCH,Architecture,40,4,MP4,True,True,development
+S03_SECURITY,Security,32,3,WEBM,True,True,development
+S04_IMPL,Implementation,38,4,MP4,True,True,development
+S05_REVIEW,Review / Next Steps,30,3,WEBM,True,True,validation
+S06_HANDOVER,Handover,34,3,MP4,True,False,test

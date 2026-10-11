@@ -1,0 +1,31 @@
+session_id,segment_id,start_sec,end_sec,speaker,speaker_role,text_raw,expected_category,has_visual_reference
+S01_DISCOVERY,SEG001,15,28,Laura_Client,client,Necesitamos que el portal permita consultar el estado de cada solicitud.,functional_requirement,FALSE
+S01_DISCOVERY,SEG002,95,112,Ana_PM,pm,El alcance inicial cubrirá únicamente usuarios internos.,scope_next_step,FALSE
+S01_DISCOVERY,SEG003,220,238,Carlos_Client,client,La solución debe responder en menos de tres segundos para las consultas principales.,nonfunctional_requirement,FALSE
+S01_DISCOVERY,SEG004,420,438,Miguel_Consultant,consultant,Existe dependencia con la definición del catálogo de usuarios.,risk_dependency,FALSE
+S01_DISCOVERY,SEG005,760,780,,client,El cliente también requiere descargar el resultado en PDF.,functional_requirement,FALSE
+S01_DISCOVERY,SEG006,1180,1198,Ana_PM,pm,Como siguiente paso validaremos el alcance con el sponsor.,scope_next_step,FALSE
+S02_ARCH,SEG007,20,38,Jorge_Architect,architect,Se acuerda separar la capa de ingestión de la capa de generación.,architecture_decision,FALSE
+S02_ARCH,SEG008,180,202,Jorge_Architect,architect,<i>La arquitectura utilizará almacenamiento de objetos para conservar los artefactos.</i><br>,architecture_decision,FALSE
+S02_ARCH,SEG009,420,441,Laura_Client,client,La solución debe conservar trazabilidad de cada requisito hasta su evidencia.,nonfunctional_requirement,FALSE
+S02_ARCH,SEG010,720,742,Jorge_Architect,architect,"Como se observa en el diagrama, el componente de ingestión entrega contenido al extractor.",architecture_decision,TRUE
+S02_ARCH,SEG011,1030,1050,Miguel_Consultant,consultant,Existe riesgo de perder contexto si los segmentos se procesan sin conservar su sesión de origen.,risk_dependency,FALSE
+S02_ARCH,SEG012,1650,1671,Ana_PM,pm,El equipo documentará las interfaces entre componentes antes de la siguiente revisión.,scope_next_step,FALSE
+S03_SECURITY,SEG013,25,43,Sofia_Security,security,Se requiere cifrado de la información en tránsito y en reposo.,nonfunctional_requirement,FALSE
+S03_SECURITY,SEG014,210,230,Sofia_Security,security,Los accesos al sistema deben quedar registrados para auditoría.,nonfunctional_requirement,FALSE
+S03_SECURITY,SEG015,480,501,Carlos_Client,client,No se utilizarán grabaciones reales con información bajo NDA durante el prototipo.,scope_next_step,FALSE
+S03_SECURITY,SEG016,750,772,Sofia_Security,security,Existe una dependencia con la aprobación de los documentos que podrán utilizarse en RAG.,risk_dependency,FALSE
+S03_SECURITY,SEG017,1020,1015,Miguel_Consultant,consultant,La documentación autorizada deberá estar versionada.,nonfunctional_requirement,FALSE
+S03_SECURITY,SEG018,1450,1468,Ana_PM,pm,La revisión humana será obligatoria antes de considerar final cualquier documento.,scope_next_step,FALSE
+S04_IMPL,SEG019,35,54,Edgar_Data,data_engineer,"El sistema deberá extraer requisitos, decisiones, riesgos y siguientes pasos.",functional_requirement,FALSE
+S04_IMPL,SEG020,250,272,Edgar_Data,data_engineer,Cada hallazgo deberá incluir el identificador de sesión y su intervalo temporal.,functional_requirement,FALSE
+S04_IMPL,SEG021,510,532,Jorge_Architect,architect,Se decidió utilizar RAG únicamente como contexto institucional complementario.,architecture_decision,FALSE
+S04_IMPL,SEG022,840,862,Miguel_Consultant,consultant,El agente auditor deberá detectar afirmaciones sin evidencia.,functional_requirement,FALSE
+S04_IMPL,SEG023,1220,1242,Laura_Client,client,Existe riesgo de mezclar información de la sesión con información recuperada del RAG.,risk_dependency,FALSE
+S04_IMPL,SEG024,1750,1770,Ana_PM,pm,El siguiente paso será definir la estructura JSON de los hallazgos.,scope_next_step,FALSE
+S05_REVIEW,SEG025,18,38,Ana_PM,pm,Revisaremos primero si el borrador incluye todas las secciones obligatorias.,scope_next_step,FALSE
+S05_REVIEW,SEG026,215,235,Jorge_Architect,architect,La decisión de arquitectura principal debe citar la evidencia de la sesión.,architecture_decision,FALSE
+S05_REVIEW,SEG027,455,475,Laura_Client,client,El usuario debe poder identificar de dónde proviene cada afirmación relevante.,functional_requirement,FALSE
+S05_REVIEW,SEG028,720,741,Miguel_Consultant,consultant,,risk_dependency,FALSE
+S05_REVIEW,SEG029,980,1000,Ana_PM,pm,Se revisará manualmente una muestra de respuestas para comparar con el juez automático.,scope_next_step,FALSE
+S05_REVIEW,SEG030,980,1000,Ana_PM,pm,Se revisará manualmente una muestra de respuestas para comparar con el juez automático.,scope_next_step,FALSE
