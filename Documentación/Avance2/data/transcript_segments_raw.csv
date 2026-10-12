@@ -1,0 +1,142 @@
+session_id,segment_id,start_sec,end_sec,speaker,speaker_role,expected_category,text_raw
+S01_DISCOVERY,SEG001,80,100,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 1.
+S01_DISCOVERY,SEG002,160,180,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 2.
+S01_DISCOVERY,SEG003,240,260,Consultor_1,client,requirement,Discusión técnica sobre el segmento 3.
+S01_DISCOVERY,SEG004,320,340,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 4.
+S01_DISCOVERY,SEG005,0,20,,client,next_steps,Discusión técnica sobre el segmento 5.
+S01_DISCOVERY,SEG006,80,100,Consultor_0,consultant,requirement,Discusión técnica sobre el segmento 6.
+S02_ARCHITECTURE,SEG007,160,180,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 7.
+S02_ARCHITECTURE,SEG008,240,260,Consultor_0,consultant,next_steps,<i>La arquitectura utilizará almacenamiento de objetos...</i><br>
+S02_ARCHITECTURE,SEG009,320,340,Consultor_1,client,requirement,Discusión técnica sobre el segmento 9.
+S02_ARCHITECTURE,SEG010,0,20,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 10.
+S02_ARCHITECTURE,SEG011,80,100,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 11.
+S02_ARCHITECTURE,SEG012,160,180,Consultor_0,consultant,requirement,Discusión técnica sobre el segmento 12.
+S03_SECURITY,SEG013,240,260,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 13.
+S03_SECURITY,SEG014,320,340,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 14.
+S03_SECURITY,SEG015,0,20,Consultor_1,client,requirement,Discusión técnica sobre el segmento 15.
+S03_SECURITY,SEG016,80,100,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 16.
+S03_SECURITY,SEG017,160,155,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 17.
+S03_SECURITY,SEG018,240,260,Consultor_0,consultant,requirement,Discusión técnica sobre el segmento 18.
+S04_IMPLEMENTATION,SEG019,320,340,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 19.
+S04_IMPLEMENTATION,SEG020,0,20,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 20.
+S04_IMPLEMENTATION,SEG021,80,100,Consultor_1,client,requirement,Discusión técnica sobre el segmento 21.
+S04_IMPLEMENTATION,SEG022,160,180,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 22.
+S04_IMPLEMENTATION,SEG023,240,260,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 23.
+S04_IMPLEMENTATION,SEG024,320,340,Consultor_0,consultant,requirement,Discusión técnica sobre el segmento 24.
+S05_REVIEW,SEG025,0,20,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 25.
+S05_REVIEW,SEG026,80,100,Consultor_0,consultant,next_steps,Discusión técnica sobre el segmento 26.
+S05_REVIEW,SEG027,160,180,Consultor_1,client,requirement,Discusión técnica sobre el segmento 27.
+S05_REVIEW,SEG028,240,260,Consultor_0,consultant,next_steps,
+S05_REVIEW,SEG029,320,340,Consultor_1,client,next_steps,Discusión técnica sobre el segmento 29.
+S05_REVIEW,SEG030,0,20,Consultor_0,consultant,requirement,Discusión técnica sobre el segmento 30.
+S07_DISCOVERY,SEG031,23,84,Aaron Cardenas,Cloud Architect,next_steps,Let's schedule a sync next Monday to review the prompt engineering guidelines for Agent Designer 2.0.
+S07_DISCOVERY,SEG032,105,178,Jorge Muñoz,Senior Data Engineer,requirement,"The system must comply with regional data residency guidelines, keeping all WEX Inc. data within Mexico."
+S07_DISCOVERY,SEG033,186,215,Client PM,Product Owner,next_steps,We need to update our project tracker to reflect the new delivery timeline for the WEX Inc. accelerator.
+S07_DISCOVERY,SEG034,233,319,Santi Souza,"Director, GSD",requirement,The pipeline must ingest hourly updates from the MySQL database without causing performance degradation.
+S07_DISCOVERY,SEG035,343,412,Client Engineer,Senior Developer,next_steps,I will write the Technical Design Document (TDD) detailing the database schema for the prompt registry.
+S07_DISCOVERY,SEG036,417,514,Client PM,Product Owner,technical_discussion,We are seeing some prompt injection vulnerabilities in our initial testing of the HR agent.
+S08_ARCHITECTURE,SEG037,29,121,Sebastian Balboa,Delivery Lead,requirement,A key requirement is the integration of legacy data sources like Euroserver without making code changes to them.
+S08_ARCHITECTURE,SEG038,139,169,Client PM,Product Owner,next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our prompt tuning evaluations.
+S08_ARCHITECTURE,SEG039,197,240,Aaron Cardenas,Cloud Architect,architecture_decision,"Should we use a centralized vector database like Vertex AI Vector Search, or a local index for Reese data?"
+S08_ARCHITECTURE,SEG040,261,284,Sebastian Balboa,Delivery Lead,database_migration,Let's verify that the migrated Spanner tables have their primary keys chosen to avoid hot-spotting.
+S08_ARCHITECTURE,SEG041,309,383,Aaron Cardenas,Cloud Architect,next_steps,Let's organize a workshop on the Agentic AI Lifecycle Framework for the client development team.
+S09_SECURITY,SEG042,22,131,Jorge Muñoz,Senior Data Engineer,database_migration,Using Cloud SQL for PostgreSQL is a cost-effective choice for our metadata storage needs.
+S09_SECURITY,SEG043,155,206,Jorge Muñoz,Senior Data Engineer,next_steps,We should schedule a meeting with Sebastian Balboa to align on the delivery milestones for the next sprint.
+S09_SECURITY,SEG044,222,338,Aaron Cardenas,Cloud Architect,technical_discussion,The synthetic data generator needs to produce more diverse edge cases for our testing pipeline.
+S09_SECURITY,SEG045,344,384,Jorge Muñoz,Senior Data Engineer,database_migration,Let's verify that the migrated Spanner tables have their primary keys chosen to avoid hot-spotting.
+S10_IMPLEMENTATION,SEG046,7,114,Aaron Cardenas,Cloud Architect,next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our retrieval model evaluations.
+S10_IMPLEMENTATION,SEG047,123,217,Client Engineer,Senior Developer,next_steps,I will share the architecture slides with Jorge Muñoz for final director-level sign-off.
+S10_IMPLEMENTATION,SEG048,227,270,Client Engineer,Senior Developer,next_steps,I will draft the deployment and scalability strategy doc for Gemini Enterprise on Prosa.
+S10_IMPLEMENTATION,SEG049,288,325,Client PM,Product Owner,database_migration,"Our database replication lag is currently under 23 seconds, which is well within our limits."
+S10_IMPLEMENTATION,SEG050,352,387,Santi Souza,"Director, GSD",technical_discussion,We are experiencing high latency when querying the legacy RIS database via our middleware.
+S10_IMPLEMENTATION,SEG051,413,506,Client Engineer,Senior Developer,next_steps,I will share the architecture slides with Aaron Cardenas for final director-level sign-off.
+S11_REVIEW,SEG052,12,50,Jorge Muñoz,Senior Data Engineer,requirement,The client requires full audit logs for every query processed by the Gemini Enterprise agent.
+S11_REVIEW,SEG053,73,153,Aaron Cardenas,Cloud Architect,requirement,Security requirements state that all data in transit must be encrypted using TLS 1.2.
+S11_REVIEW,SEG054,158,177,Jorge Muñoz,Senior Data Engineer,technical_discussion,The Dataflow pipeline is currently bottlenecked by the API quota of our external translation service.
+S12_HANDOVER,SEG055,6,126,Client Engineer,Senior Developer,requirement,Our model evaluations must achieve a semantic similarity score of at least 0.82 on the test split.
+S12_HANDOVER,SEG056,138,183,Aaron Cardenas,Cloud Architect,next_steps,I will share the architecture slides with Sebastian Balboa for final director-level sign-off.
+S12_HANDOVER,SEG057,205,231,Client Engineer,Senior Developer,technical_discussion,Let's use Database Migration Service (DMS) for replicating tables from on-premise PostgreSQL to Cloud SQL.
+S13_DISCOVERY,SEG058,12,122,Santi Souza,"Director, GSD",next_steps,Let's organize a workshop on the CRISP-ML(Q) pipeline for the client development team.
+S13_DISCOVERY,SEG059,133,155,Santi Souza,"Director, GSD",requirement,The client requires full audit logs for every query processed by the WEX Ticket Resolver agent.
+S13_DISCOVERY,SEG060,171,235,Client PM,Product Owner,next_steps,Next step is to perform a load test on the retrieval pipeline using synthetic user profiles.
+S13_DISCOVERY,SEG061,241,337,Client PM,Product Owner,next_steps,We need to update our project tracker to reflect the new delivery timeline for the Gemini Enterprise accelerator.
+S13_DISCOVERY,SEG062,345,362,Sebastian Balboa,Delivery Lead,next_steps,We should schedule a meeting with Aaron Cardenas to align on the delivery milestones for the next sprint.
+S13_DISCOVERY,SEG063,392,512,Aaron Cardenas,Cloud Architect,requirement,The Golden Dataset for evaluation must contain at least 851 hand-curated multi-turn conversations.
+S14_ARCHITECTURE,SEG064,19,46,Sebastian Balboa,Delivery Lead,next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our retrieval model evaluations.
+S14_ARCHITECTURE,SEG065,65,106,Jorge Muñoz,Senior Data Engineer,database_migration,The schema migration scripts are fully version-controlled using Debezium.
+S14_ARCHITECTURE,SEG066,125,238,Client Engineer,Senior Developer,database_migration,We should run a dry-run migration to identify any schema incompatibilities with the legacy database.
+S14_ARCHITECTURE,SEG067,246,262,Client Engineer,Senior Developer,next_steps,I will write the Technical Design Document (TDD) detailing the database schema for the user analytics.
+S14_ARCHITECTURE,SEG068,267,288,Aaron Cardenas,Cloud Architect,database_migration,Let's verify that the migrated Spanner tables have their primary keys chosen to avoid hot-spotting.
+S14_ARCHITECTURE,SEG069,298,360,Aaron Cardenas,Cloud Architect,next_steps,Let's organize a workshop on the CRISP-ML(Q) pipeline for the client development team.
+S14_ARCHITECTURE,SEG070,377,394,Jorge Muñoz,Senior Data Engineer,requirement,The system must resolve L1/L2 tickets within an average response time of under 24 seconds.
+S15_SECURITY,SEG071,30,140,Santi Souza,"Director, GSD",next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our retrieval model evaluations.
+S15_SECURITY,SEG072,167,270,Client Engineer,Senior Developer,architecture_decision,We need to define the multi-agent architecture for the Prosa L1/L2 customer support pipeline.
+S15_SECURITY,SEG073,296,397,Aaron Cardenas,Cloud Architect,next_steps,Next step is to perform a load test on the retrieval pipeline using synthetic user profiles.
+S15_SECURITY,SEG074,411,448,Client Engineer,Senior Developer,architecture_decision,I suggest a multi-region deployment to ensure high availability and disaster recovery compliance for Prosa.
+S15_SECURITY,SEG075,476,555,Sebastian Balboa,Delivery Lead,requirement,<i>The Golden Dataset for evaluation must contain at least 114 hand-curated multi-turn conversations.</i>
+S16_IMPLEMENTATION,SEG076,23,94,Client Engineer,Senior Developer,next_steps,I will share the architecture slides with Jorge Muñoz for final director-level sign-off.
+S16_IMPLEMENTATION,SEG077,104,121,Jorge Muñoz,Senior Data Engineer,architecture_decision,The load balancer should route traffic to nearest regions using Global Anycast IP.
+S16_IMPLEMENTATION,SEG078,131,149,Client PM,Product Owner,next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our agent evaluation evaluations.
+S17_REVIEW,SEG079,8,90,Client Engineer,Senior Developer,requirement,The pipeline must ingest hourly updates from the MySQL database without causing performance degradation.
+S17_REVIEW,SEG080,96,185,,,requirement,The pipeline must ingest hourly updates from the PostgreSQL database without causing performance degradation.
+S17_REVIEW,SEG081,208,290,Sebastian Balboa,Delivery Lead,next_steps,I will draft the deployment and scalability strategy doc for WEX Ticket Resolver on Prosa.
+S17_REVIEW,SEG082,301,396,Aaron Cardenas,Cloud Architect,technical_discussion,We are seeing some prompt injection vulnerabilities in our initial testing of the HR agent.
+S17_REVIEW,SEG083,409,469,Client PM,Product Owner,requirement,The Golden Dataset for evaluation must contain at least 416 hand-curated multi-turn conversations.
+S17_REVIEW,SEG084,483,551,Jorge Muñoz,Senior Data Engineer,requirement,The pipeline must ingest hourly updates from the MySQL database without causing performance degradation.
+S18_HANDOVER,SEG085,24,106,Jorge Muñoz,Senior Data Engineer,architecture_decision,The load balancer should route traffic to nearest regions using Global Anycast IP.
+S18_HANDOVER,SEG086,128,165,Aaron Cardenas,Cloud Architect,next_steps,I will share the architecture slides<br>with Aaron Cardenas for final director-level sign-off.
+S18_HANDOVER,SEG087,181,199,Sebastian Balboa,Delivery Lead,database_migration,"Our database replication lag is currently under 16 seconds, which is well within our limits."
+S18_HANDOVER,SEG088,213,243,Client Engineer,Senior Developer,next_steps,I will share the architecture slides with Aaron Cardenas for final director-level sign-off.
+S18_HANDOVER,SEG089,270,318,Client PM,Product Owner,next_steps,Next step is to perform a load test on the retrieval pipeline using synthetic user profiles.
+S18_HANDOVER,SEG090,339,350,Client Engineer,Senior Developer,next_steps,I will share the architecture slides with Sebastian Balboa for final director-level sign-off.
+S19_DISCOVERY,SEG091,9,52,Jorge Muñoz,Senior Data Engineer,requirement,"We need a dashboard to track key performance indicators such as latency, cost, and retrieval precision."
+S19_DISCOVERY,SEG092,80,160,Sebastian Balboa,Delivery Lead,requirement,A key requirement is the integration of legacy data sources like legacy CRM without making code changes to them.
+S19_DISCOVERY,SEG093,184,220,Aaron Cardenas,Cloud Architect,technical_discussion,The Dataflow pipeline is currently bottlenecked by the API quota of our external translation service.
+S20_ARCHITECTURE,SEG094,21,93,Jorge Muñoz,Senior Data Engineer,requirement,"We need a dashboard to track key performance indicators such as latency, cost, and token consumption."
+S20_ARCHITECTURE,SEG095,100,191,Sebastian Balboa,Delivery Lead,next_steps,I will share the architecture slides with Aaron Cardenas for final director-level sign-off.
+S20_ARCHITECTURE,SEG096,197,207,Aaron Cardenas,Cloud Architect,requirement,Our model evaluations must achieve a semantic similarity score of at least 0.82 on the test split.
+S20_ARCHITECTURE,SEG097,232,275,Santi Souza,"Director, GSD",requirement,We need to support up to 25000 concurrent user sessions during peak hours.
+S20_ARCHITECTURE,SEG098,297,397,Jorge Muñoz,Senior Data Engineer,next_steps,We need to update our project tracker to reflect the new delivery timeline for the WEX Inc. accelerator.
+S21_SECURITY,SEG099,27,56,Sebastian Balboa,Delivery Lead,next_steps,Let's organize a workshop on the CRISP-ML(Q) pipeline for the client development team.
+S21_SECURITY,SEG100,79,159,Aaron Cardenas,Cloud Architect,requirement,The Golden Dataset for evaluation must contain at least 277 hand-curated multi-turn conversations.
+S21_SECURITY,SEG101,165,214,Jorge Muñoz,Senior Data Engineer,next_steps,Let's organize a workshop on the CRISP-ML(Q) pipeline for the client development team.
+S22_IMPLEMENTATION,SEG102,26,67,Sebastian Balboa,Delivery Lead,next_steps,We need to update our project tracker to reflect the new delivery timeline for the Prosa accelerator.
+S22_IMPLEMENTATION,SEG103,96,177,Santi Souza,"Director, GSD",database_migration,"Our database replication lag is currently under 33 seconds, which is well within our limits."
+S22_IMPLEMENTATION,SEG104,201,306,Aaron Cardenas,Cloud Architect,requirement,The Golden Dataset for evaluation must contain at least 771 hand-curated multi-turn conversations.
+S22_IMPLEMENTATION,SEG105,316,428,Santi Souza,"Director, GSD",technical_discussion,Let's use Database Migration Service (DMS) for replicating tables from on-premise PostgreSQL to Cloud SQL.
+S23_REVIEW,SEG106,28,80,,,technical_discussion,"The embedding model we're testing is capturing semantic relations quite well, but it's slow on large texts."
+S23_REVIEW,SEG107,110,205,Aaron Cardenas,Cloud Architect,database_migration,We are planning the final cutover of the main transaction database for next Wednesday at 2 AM.
+S23_REVIEW,SEG108,218,248,Jorge Muñoz,Senior Data Engineer,technical_discussion,Let's use Database Migration Service (DMS) for replicating tables from on-premise PostgreSQL to Cloud SQL.
+S23_REVIEW,SEG109,265,279,Aaron Cardenas,Cloud Architect,database_migration,The data migration from legacy CRM database has been completed with zero downtime.
+S24_HANDOVER,SEG110,16,65,Aaron Cardenas,Cloud Architect,technical_discussion,We should configure Pub/Sub dead-letter queues to catch messages that fail to parse.
+S24_HANDOVER,SEG111,77,90,Santi Souza,"Director, GSD",next_steps,Let's schedule a sync next Wednesday to review the prompt engineering guidelines for Agent Designer 2.0.
+S24_HANDOVER,SEG112,105,150,Sebastian Balboa,Delivery Lead,database_migration,"Our database replication lag is currently under 44 seconds, which is well within our limits."
+S24_HANDOVER,SEG113,166,258,Client PM,Product Owner,next_steps,I'll coordinate with the security team to review our IAM service accounts and roles.
+S24_HANDOVER,SEG114,280,332,Jorge Muñoz,Senior Data Engineer,database_migration,The schema migration scripts are fully version-controlled using Agent Designer 2.0.
+S24_HANDOVER,SEG115,345,377,Sebastian Balboa,Delivery Lead,next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our retrieval model evaluations.
+S25_DISCOVERY,SEG116,24,89,Sebastian Balboa,Delivery Lead,requirement,The system must resolve L1/L2 tickets within an average response time of under 18 seconds.
+S25_DISCOVERY,SEG117,107,194,Jorge Muñoz,Senior Data Engineer,architecture_decision,"For the Prosa deployment, we need to finalize the architectural strategy regarding LLM gateway routing."
+S25_DISCOVERY,SEG118,211,294,Jorge Muñoz,Senior Data Engineer,requirement,The Golden Dataset for evaluation must contain at least 929 hand-curated multi-turn conversations.
+S26_ARCHITECTURE,SEG119,5,81,Client Engineer,Senior Developer,database_migration,"Our database replication lag is currently under 45 seconds, which is well within our limits."
+S26_ARCHITECTURE,SEG120,107,209,Client PM,Product Owner,database_migration,We are planning the final cutover of the main transaction database for next Wednesday at 2 AM.
+S26_ARCHITECTURE,SEG121,235,270,Jorge Muñoz,Senior Data Engineer,next_steps,I will draft the deployment and scalability strategy doc for WEX Ticket Resolver on Prosa.
+S26_ARCHITECTURE,SEG122,296,348,Client PM,Product Owner,next_steps,Let's organize a workshop on the Agentic AI Lifecycle Framework for the client development team.
+S26_ARCHITECTURE,SEG123,356,458,Client Engineer,Senior Developer,database_migration,Using Cloud SQL for PostgreSQL is a cost-effective choice for our metadata storage needs.
+S26_ARCHITECTURE,SEG124,472,567,,,next_steps,I will write the Technical Design Document (TDD) detailing the database schema for the prompt registry.
+S27_SECURITY,SEG125,22,48,Client PM,Product Owner,requirement,Our model evaluations must achieve a semantic similarity score of at least 0.87 on the test split.
+S27_SECURITY,SEG126,65,161,Aaron Cardenas,Cloud Architect,technical_discussion,The current parser is struggling with formatting errors in the raw transcript segments.
+S27_SECURITY,SEG127,185,267,Client Engineer,Senior Developer,requirement,"We need a dashboard to track key performance indicators such as latency, cost, and token consumption."
+S27_SECURITY,SEG128,272,320,Santi Souza,"Director, GSD",requirement,We need to support up to 10000 concurrent user sessions during peak hours.
+S27_SECURITY,SEG129,350,434,Sebastian Balboa,Delivery Lead,next_steps,I'm going to set up the CI/CD pipeline in Cloud Build to automate our prompt tuning evaluations.
+S28_IMPLEMENTATION,SEG130,19,115,Santi Souza,"Director, GSD",requirement,The system must resolve L1/L2 tickets within an average response time of under 18 seconds.
+S28_IMPLEMENTATION,SEG131,145,256,Client PM,Product Owner,technical_discussion,We can optimize BigQuery costs by partitioning the tables by ingestion date and clustering by category.
+S28_IMPLEMENTATION,SEG132,263,309,Client PM,Product Owner,next_steps,I will draft the deployment and scalability strategy doc for Gemini Enterprise on WEX Inc..
+S28_IMPLEMENTATION,SEG133,333,385,Aaron Cardenas,Cloud Architect,requirement,Security requirements state that all data in transit must be encrypted using TLS 1.3.
+S28_IMPLEMENTATION,SEG134,411,460,Aaron Cardenas,Cloud Architect,requirement,A key requirement is the integration of legacy data sources like on-premise database without making code changes to them.
+S28_IMPLEMENTATION,SEG135,469,482,Santi Souza,"Director, GSD",requirement,"The system must comply with regional data residency guidelines, keeping all WEX Inc. data within LATAM region."
+S29_REVIEW,SEG136,19,82,Client Engineer,Senior Developer,database_migration,We are planning the final cutover of the main transaction database for next Tuesday at 2 AM.
+S29_REVIEW,SEG137,93,194,Santi Souza,"Director, GSD",next_steps,Next step is to perform a load test on the retrieval pipeline using synthetic user profiles.
+S29_REVIEW,SEG138,211,252,Client PM,Product Owner,requirement,"We need a dashboard to track key performance indicators such as latency, cost, and token consumption."
+S30_HANDOVER,SEG139,29,93,Client PM,Product Owner,requirement,The pipeline must ingest hourly updates from the PostgreSQL database without causing performance degradation.
+S30_HANDOVER,SEG140,114,183,Aaron Cardenas,Cloud Architect,requirement,The system must resolve L1/L2 tickets within an average response time of under 23 seconds.
+S30_HANDOVER,SEG141,191,259,Santi Souza,"Director, GSD",requirement,The client requires full audit logs for every query processed by the WEX Ticket Resolver agent.

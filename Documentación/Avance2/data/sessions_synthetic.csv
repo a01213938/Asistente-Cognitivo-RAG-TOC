@@ -1,0 +1,31 @@
+session_id,project_phase,duration_min,num_speakers,video_format,has_audio,has_transcript,dataset_split
+S01_DISCOVERY,Discovery,35,4,MP4,True,True,development
+S02_ARCHITECTURE,Architecture,40,4,MP4,True,True,development
+S03_SECURITY,Security,32,3,WEBM,True,True,development
+S04_IMPLEMENTATION,Implementation,38,4,MP4,True,True,development
+S05_REVIEW,Review / Next Steps,30,3,WEBM,True,True,validation
+S06_HANDOVER,Handover,34,3,MP4,True,False,test
+S07_DISCOVERY,Discovery,55,2,MP4,True,True,validation
+S08_ARCHITECTURE,Architecture,30,3,MP4,True,True,validation
+S09_SECURITY,Security,58,6,MP4,True,True,development
+S10_IMPLEMENTATION,Implementation,17,2,MP4,True,True,development
+S11_REVIEW,Review / Next Steps,47,6,MP4,True,True,development
+S12_HANDOVER,Handover,60,6,WEBM,True,True,development
+S13_DISCOVERY,Discovery,52,4,MP4,True,True,validation
+S14_ARCHITECTURE,Architecture,25,5,WEBM,True,True,development
+S15_SECURITY,Security,28,4,MP4,True,True,development
+S16_IMPLEMENTATION,Implementation,21,4,WEBM,True,True,development
+S17_REVIEW,Review / Next Steps,17,5,MP4,True,True,test
+S18_HANDOVER,Handover,39,2,WEBM,True,True,validation
+S19_DISCOVERY,Discovery,54,4,MP4,True,True,validation
+S20_ARCHITECTURE,Architecture,17,3,WEBM,True,True,test
+S21_SECURITY,Security,29,2,WEBM,True,True,development
+S22_IMPLEMENTATION,Implementation,55,4,MP4,True,True,development
+S23_REVIEW,Review / Next Steps,28,4,MP4,True,True,development
+S24_HANDOVER,Handover,25,6,MP4,True,True,development
+S25_DISCOVERY,Discovery,39,4,MP4,True,True,development
+S26_ARCHITECTURE,Architecture,18,3,MP4,True,True,validation
+S27_SECURITY,Security,40,4,MP4,True,True,development
+S28_IMPLEMENTATION,Implementation,51,4,MP4,True,True,development
+S29_REVIEW,Review / Next Steps,40,5,MP4,True,True,development
+S30_HANDOVER,Handover,30,6,WEBM,True,True,validation
